@@ -86,5 +86,43 @@ img {
     height: 30px;
     padding-top: 2ex;
     padding-left: 2ex;
-    margin: 10px;
+
 }
+
+.element5 {
+    background: rgb(212, 207, 207);
+    width: 600px;
+    height: auto;
+    padding-top: 2ex;
+    padding-left: 2ex;
+    padding-bottom: 5ex;
+
+}
+
+.menu1 {
+    background-color: blue;
+    padding: 10px;
+    color: white;
+}
+
+.menuButton {
+    padding: 10px;
+    border-right: 2px solid black;
+    text-decoration: underline;
+}
+
+.element6 {
+    height: 150px;
+    width: 400px;
+    border: 4px solid black;
+    position: relative; 
+}
+
+.element7 {
+    background-color: lightgray;
+    padding: 10px;
+    max-width: 200px;
+    margin: auto 0 auto auto;
+}
+
+
