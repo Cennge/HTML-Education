@@ -112,9 +112,12 @@ img {
 }
 
 .element6 {
-    height: 150px;
+    height: auto;
     width: 400px;
     border: 4px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
     position: relative; 
 }
 
