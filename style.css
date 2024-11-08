@@ -1,13 +1,50 @@
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 table{
     border-radius: 10px;
-    background-color: rgb(119, 180, 255);
     overflow: hidden;
     margin: 0px;
     border-spacing: 0px;
 }
 
+thead {
+    background-color: rgb(104, 193, 223);
+    color: white;
+}
+
+thead tr th {
+    margin: 0px 10px 0px 10px;
+    padding: 10px 20px 0px 20px;
+    text-align: center;
+}
+
+.price {
+    text-align: center;
+    font-size: x-large;
+    padding: 0px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
 tr th {
-    background-color: gray;
     margin: 0px;
     padding: 5px;
+}
+
+tbody tr th {
+    padding: 15px;
+}
+
+tfoot tr th{
+    padding: 20px;
+}
+
+.grayRow {
+    background-color: rgb(217, 217, 217);
+}
+
+.lightGrayRow {
+    background-color: rgb(233, 233, 233);
 }
