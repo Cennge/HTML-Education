@@ -1,0 +1,13 @@
+table{
+    border-radius: 10px;
+    background-color: rgb(119, 180, 255);
+    overflow: hidden;
+    margin: 0px;
+    border-spacing: 0px;
+}
+
+tr th {
+    background-color: gray;
+    margin: 0px;
+    padding: 5px;
+}
