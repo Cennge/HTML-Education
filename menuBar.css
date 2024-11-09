@@ -38,7 +38,7 @@ header {
     box-shadow: 5px 5px 12px #00000035;
     background: #FFFFFF25;
     border-radius: 40px;
-    overflow: hidden;
+    overflow: visible;
     backdrop-filter: blur(4px);
 }
 
@@ -46,9 +46,11 @@ header {
     list-style-type: none;
     padding: 0;
     margin: 0;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.menu>ul>li {
+.menu > ul > li {
     position: relative;
     display: inline-block;
     margin: 0;
@@ -57,10 +59,10 @@ header {
 .menu a {
     color: rgb(26, 22, 29);
     display: block;
-    padding: 20px 20px;
+    padding: 10px 20px;
     text-decoration: none;
-    border-radius: 10px;
-    margin: 0;
+    border-radius: 40px;
+    margin: 5px; 
     transition: background-color 0.3s, color 0.3s;
     white-space: nowrap;
 }
@@ -68,6 +70,38 @@ header {
 .menu a:hover {
     background-color: #5dade2;
     color: #fff;
+}
+
+
+.menu ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: rgb(255, 255, 255); 
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+    min-width: 200px;
+    border-top: 2px solid rgba(255, 255, 255, 0.45);
+    border-left: 2px solid rgba(255, 255, 255, 0.45);
+    box-shadow: 5px 5px 12px #00000035;
+    padding: 10px 0;
+    z-index: 1000;
+    flex-direction: column;
+}
+
+
+.menu ul ul li {
+    width: 100%;
+}
+
+.menu ul ul a {
+    padding: 10px 20px;
+    border-radius: 40px;
+}
+
+.menu li:hover > ul {
+    display: block;
 }
 
 .mainPage {
@@ -88,13 +122,13 @@ header {
 
 .image-container {
     width: min-content;
-    margin: 0px;
+    margin: 0px 20px 0px 0px;
     border-top: 2px solid #FFFFFF75;
     border-left: 2px solid #FFFFFF75;
     box-shadow: 5px 5px 12px #00000035;
     background: #FFFFFF25;
     border-radius: 15px;
-    overflow:visible;
+    overflow: visible;
     backdrop-filter: blur(4px);
     padding: 0px;
     display: inline;
@@ -110,4 +144,16 @@ header {
 
 .image-container:hover img {
     transform: scale(1.06);
+}
+
+.about-title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.about-content {
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 20px;
 }

@@ -12,16 +12,27 @@
 
     <div class="container">
         <header>
-            <nav class="menu">
-                <ul>
-                    <li><a href="index.html">About Me</a></li>
-                    <li><a href="school.html">School</a></li>
-                    <li><a href="#">Reading</a></li>
-                    <li><a href="#">Hobby</a></li>
-                    <li><a href="#">Education</a></li>
-                    <li><a href="#">Contacts</a></li>
-                </ul>
-            </nav>
+            <div>
+                <nav>
+                    <div class="menu">
+                        <ul>
+                            <li><a href="index.html">About Me</a></li>
+                            <li><a href="school.html">School</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle">Reading ▼</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Fiction</a></li>
+                                    <li><a href="#">Technical literature</a></li>
+                                    <li><a href="#">Favourite books</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Hobby</a></li>
+                            <li><a href="#">Education</a></li>
+                            <li><a href="#">Contacts</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
         </header>
 
         <div class="mainPage">
@@ -30,10 +41,15 @@
                 <img class="img" src="img\ilya1.jpg" alt="Me">
             </div>
 
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit
-                voluptatem corrupti repellendus voluptas tempora labore corporis, rem
-                quod id aperiam, fugiat tempore consequuntur impedit incidunt. Facilis
-                numquam atque mollitia minima.</p>
+            <div>
+                <h1 class="about-title">About me</h1>
+                <p class="about-content">
+                    My name is Ilya, I am 18 years old. I am studying at the university STEP on programmer.
+                    Since the age of 13 I have been doing karate and now I'm passionate about creating modern web applications
+                    I like to play computer games. I am also fond of graphic design, in parallel programming.
+                </p>
+            </div>
+
         </div>
     </div>
 
