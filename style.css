@@ -1,5 +1,5 @@
 body {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 table{
@@ -48,3 +48,23 @@ tfoot tr th{
 .lightGrayRow {
     background-color: rgb(233, 233, 233);
 }
+
+button {
+    padding: 17px 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 0;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all 0.5s ease;
+    margin: 1px 5px 1px 5px;
+  }
+  
+  button:hover {
+    background-color: hsl(198, 80%, 48%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(24, 171, 220) 0px 7px 29px 0px;
+  }
