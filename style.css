@@ -19,3 +19,38 @@
     padding: 20px;
     margin: 10px;
 }
+
+
+.headerContainer2 {
+    width: 100%;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 10px;
+    margin-left: 0px;
+}
+
+.mainLeftContainer2 {
+    width: 25%;
+    height: 500px;
+    border: 1px solid black;    
+    margin: 20px 10px 20px 0px; 
+    padding: 20px;
+    float: left;
+}
+
+.mainContainer2 {
+    width: 70%;
+    height: 500px;
+    border: 1px solid black;
+    margin: 20px 0 20px 0;
+    padding: 20px;
+    float: left;
+}
+
+.footerContainer2 {
+    width: 100%;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 10px;
+    margin-left: 0px;
+}
