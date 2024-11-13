@@ -52,3 +52,10 @@ p {
     color: #888;
     font-size: 0.7em;
 }
+
+.features {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 1.8;
+}
