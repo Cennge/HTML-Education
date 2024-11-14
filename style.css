@@ -1,61 +1,37 @@
 body {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1em;
 }
 
-.card { 
-    float: left;
-    width: 20%;
-    height: 400px;
-    margin: 10px;
-    border-top: 2px solid #b3b3b37a;
-    border-left: 2px solid #c5c5c575;
-    box-shadow: 5px 5px 12px #00000035;
-    background: #FFFFFF25;
-    border-radius: 15px;
-    overflow: hidden;
+footer {
+    background-color: SlateGray;
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-p {
-    margin-top: 0px;
-    padding: 20px;
-    font-weight: bold;
-    text-align: center;
+.social-container {
+    display: flex;
+    gap: 24px;
 }
 
-.enterprise {
-    border-bottom: 3px solid #e74c3c;
+.social-link {
+    width: 32px;
+    height: 32px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s;
+    padding: 10px;
+    fill: SlateGray;
 }
 
-.professional {
-    border-bottom: 3px solid #f39c12;
-}
-
-.standard {
-    border-bottom: 3px solid #3498db;
-}
-
-.basic {
-    border-bottom: 3px solid #2ecc71;
-}
-
-.price {
-    font-size: 1.5em;
-    text-align: center;
-}
-
-.amount {
-    font-size: 1.5em;
-    font-weight: bold;
-}
-
-.period {
-    color: #888;
-    font-size: 0.7em;
-}
-
-.features {
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    line-height: 1.8;
+.social-link:hover {
+    transform: scale(1.2);
 }
