@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.headerContainer {
+    width: 100%;
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+}
+
+.mainContainer {
+    display: flex;
+    flex: 1; 
+    border: 1px solid black;
+    padding: 20px;
+    gap: 10px;
+}
+
+.mainLeftContainer, 
+.mainContentContainer, 
+.mainRightContainer {
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.mainLeftContainer, .mainRightContainer {
+    width: 20%;
+}
+
+.mainContentContainer {
+    flex: 1;
+}
+
+.footerContainer {
+    width: 100%;
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+}
