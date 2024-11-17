@@ -1,61 +1,32 @@
 body {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0px;
+    margin: 0px;
 }
 
-.card { 
-    float: left;
-    width: 20%;
-    height: 400px;
-    margin: 10px;
-    border-top: 2px solid #b3b3b37a;
-    border-left: 2px solid #c5c5c575;
-    box-shadow: 5px 5px 12px #00000035;
-    background: #FFFFFF25;
-    border-radius: 15px;
-    overflow: hidden;
+.main {
+    font-size: 1.5em;
+    justify-content: center;
+    margin: 0px 15% 0px 15%;
 }
 
-p {
+.main p {
+    font-size: 2em;
+}
+
+.leftBar {
+    width: 100px;
+    height: 100%;
+    background-color: lightblue;
+    position: fixed;
     margin-top: 0px;
-    padding: 20px;
-    font-weight: bold;
-    text-align: center;
+    transition: width 0.3s ease;
 }
 
-.enterprise {
-    border-bottom: 3px solid #e74c3c;
-}
-
-.professional {
-    border-bottom: 3px solid #f39c12;
-}
-
-.standard {
-    border-bottom: 3px solid #3498db;
-}
-
-.basic {
-    border-bottom: 3px solid #2ecc71;
-}
-
-.price {
-    font-size: 1.5em;
-    text-align: center;
-}
-
-.amount {
-    font-size: 1.5em;
-    font-weight: bold;
-}
-
-.period {
-    color: #888;
-    font-size: 0.7em;
-}
-
-.features {
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    line-height: 1.8;
+.leftBar:hover{
+    width: 350px;
+    height: 100%;
+    background-color: lightblue;
+    position: fixed;
+    margin-top: 0px;
 }
