@@ -4,12 +4,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Empty</title>
+    <title>Register Page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
-
+    <div class="form-box">
+        <form class="form">
+            <span class="title">Sign up</span>
+            <div class="form-container">
+                <div class="form-grid">
+                    <label for="name">Name</label>
+                    <input id="name" type="text" class="input" placeholder="Name">
+                    <label for="surname">Surname</label>
+                    <input id="surname" type="text" class="input" placeholder="Surname">
+                    <label for="age">Age</label>
+                    <input id="age" type="number" min="0" max="100" class="input" placeholder="Age">
+                    <label for="email">Email</label>
+                    <input id="email" type="email" class="input" placeholder="Email">
+                    <label for="password">Password</label>
+                    <input id="password" type="password" class="input" placeholder="Password">
+                </div>
+            </div>
+            <button>Sign up</button>
+        </form>
+    </div>
 </body>
 
 </html>
