@@ -4,12 +4,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Empty</title>
+    <title>Register Page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <div class="form-box">
+        <form class="form">
+            <span class="title">Sign up</span>
+            <div class="form-container">
+                <div class="form-grid">
+                    <label for="login">Login</label>
+                    <input id="login" type="text" class="input" placeholder="Login" minlength="5" required>
 
+                    <label for="password">Password</label>
+                    <input id="password" type="password" class="input" placeholder="Password" minlength="8" required>
 
+                    <label for="confirmPassword">Confirm</label>
+                    <input id="confirmPassword" type="password" class="input" placeholder="Password" minlength="8"
+                        required>
+
+                    <hr>
+                    <div></div>
+
+                    <label for="fullName">Full name</label>
+                    <input id="fullName" type="text" class="input" placeholder="Full Name" minlength="6" required>
+
+                    <label>Gender</label>
+                    <div class="gender-options">
+                        <label>
+                            <input type="radio" name="gender" value="male" class="input" required>
+                            Male
+                        </label>
+                        <label>
+                            <input type="radio" name="gender" value="female" class="input" required>
+                            Female
+                        </label>
+                    </div>
+
+                    <hr>
+                    <div></div>
+
+                    <label>Foreign Languages</label>
+                    <div class="languages-options">
+                        <label>
+                            <input type="checkbox" name="language" value="english">
+                            English
+                        </label>
+                        <label>
+                            <input type="checkbox" name="language" value="german">
+                            German
+                        </label>
+                        <label>
+                            <input type="checkbox" name="language" value="french">
+                            French
+                        </label>
+                        <label>
+                            <input type="checkbox" name="language" value="spanish">
+                            Spanish
+                        </label>
+                        <label>
+                            <input type="checkbox" name="language" value="italian">
+                            Italian
+                        </label>
+                    </div>
+
+                    <label for="activity">Activity Area</label>
+                    <select id="activity" name="activity" class="input" required>
+                        <option value="">Select an option</option>
+                        <option value="education">Education</option>
+                        <option value="science">Science</option>
+                        <option value="it">IT</option>
+                        <option value="business">Business</option>
+                    </select>
+
+                    <label for="email">e-mail</label>
+                    <input id="email" type="email" class="input" placeholder="example@example.com" required>
+
+                    <label for="info">Additional Information</label>
+                    <textarea id="info" name="info" class="input" rows="4" placeholder="Write something..."></textarea>
+                </div>
+            </div>
+            <button type="submit">Sign up</button>
+        </form>
+    </div>
 </body>
 
 </html>

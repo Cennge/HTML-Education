@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #1d191c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
+
+.form-box {
+    max-width: 400px;
+    background: #f1f7fe;
+    overflow: hidden;
+    border-radius: 16px;
+    color: #010101;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 32px 24px 24px;
+    gap: 16px;
+    text-align: center;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+.subtitle {
+    font-size: 1rem;
+    color: #666;
+}
+
+.form-container {
+    margin: 1rem 0 .5rem;
+    width: 100%;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 15px;
+    align-items: center;
+}
+
+.form-grid label {
+    text-align: left;
+    font-size: 0.9rem;
+    color: #333;
+}
+
+.input {
+    background: none;
+    border: 0;
+    outline: 0;
+    height: 40px;
+    width: 100%;
+    border: 1px solid #cacaca;
+    border-radius: 10px;
+    font-size: .9rem;
+    padding: 8px 15px;
+}
+
+.form button {
+    background-color: #ff00bf;
+    color: #fff;
+    border: 0;
+    border-radius: 24px;
+    padding: 10px 16px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color .3s ease;
+}
+
+.form button:hover {
+    background-color: #d300e6;
+}
+
+.gender-options {
+    display: flex;
+    gap: 40px;
+    margin-left: 5px;
+}
+
+.gender-options label {
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+    color: #333;
+}
+
+.gender-options input {
+    margin-right: 5px;
+}
+
+.languages-options{
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+textarea.input {
+    resize: none;
+    font-size: 0.9rem;
+}
+
+input, textarea, select {
+    border: 1px solid #cacaca;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 1rem;
+    width: 100%;
+}
+
+input:invalid, textarea:invalid, select:invalid {
+    border-color: rgb(255, 148, 148);
+    background-color: #ffe6e6;
+}
+
+input:invalid:focus, textarea:invalid:focus, select:invalid:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgb(255, 148, 148);
+}
+
